@@ -11,6 +11,12 @@ function frameIt(){
   })
 }
 
+function pressIt(){
+  $('document').on('keydown', function(){
+    if(key.which == 83)
+  })
+}
+
 $(document).ready(function(){
 
 // call functions here
